@@ -1,0 +1,64 @@
+﻿@using ZayProject.Areas.Admin.Models.Slide
+@model SlideIndexVM
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Slides</h1>
+    <a class="btn btn-primary" asp-action="Create" asp-controller="Slide">Create</a>
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Mini Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Image</th>
+            <th scope="col" class="text-center">Active</th>
+            <th scope="col">Created At</th>
+            <th scope="col">Modified At</th>
+            <th scope="col" class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var slide in Model.Slides)
+        {
+            <tr>
+                <td>@slide.Title</td>
+                <td>@slide.MiniTitle</td>
+                <td>@slide.Description</td>
+                <td>
+                    <img src="~/@slide.PhotoPath" style="width: 80px; height: 100px;">
+                </td>
+                <td class="text-center" style="width: 150px">
+                    <form asp-action="SetActive" asp-controller="Slide" asp-route-id="@slide.Id" method="post">
+                       
+
+                            @if (slide.IsActive)
+                            {
+                                <button class="btn btn-success">Active</button>
+                            }
+                            else
+                            {
+                                <button class="btn btn-danger">Set As Active</button>
+                            }
+
+                       
+                    </form>
+                </td>
+                <td>
+                    @slide.CreatedAt.ToString("dd:MM:yyyy HH:mm")
+                </td>
+                <td>
+                    @slide.ModifiedAt
+                </td>
+                <td class="text-center d-flex justify-content-center">
+                    <a class="btn btn-success mx-2" asp-controller="Slide" asp-action="Update" asp-route-id="@slide.Id">Update</a>
+                    <form method="post" asp-controller="Slide" asp-action="Delete" asp-route-id="@slide.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
