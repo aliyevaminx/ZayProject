@@ -186,6 +186,8 @@ public class ProductController : Controller
         _context.Products.Remove(product);
         _context.SaveChanges();
 
+        _fileService.Delete("assets/img", product.Photo);
+
         return RedirectToAction(nameof(Index));
     }
     #endregion
