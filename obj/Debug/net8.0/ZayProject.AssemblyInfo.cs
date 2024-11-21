@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZayProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be138d815df4976c2da50cfdc3e1ef162a1b487")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZayProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZayProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

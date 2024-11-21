@@ -24,12 +24,12 @@
          @foreach (var product in Model.Products)
             {
             <tr>
-                <td>@product.Title</td>
+                <td>@product.Title</td>     
                 <td>@product.ProductCategory.Name</td>
                 <td>@product.Size</td>
                 <td>@product.Price</td>
                 <td>
-                    <img src="~/@product.PhotoPath" style="width: 80px; height: 100px;">
+                    <img src="~/assets/img/@product.Photo" style="width: 80px; height: 100px;">
                 </td>
                 <td>
                     @product.CreatedAt.ToString("dd:MM:yyyy HH:mm")

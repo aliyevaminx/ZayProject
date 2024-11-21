@@ -18,7 +18,8 @@ public class ShopController : Controller
     {
         var model = new ProductIndexVM
         {
-            ProductCategories = _context.ProductCategories.Include(p => p.Products).ToList()
+            ProductCategories = _context.ProductCategories.Include(p => p.Products).ToList(),
+            Products = _context.Products.ToList()
         };
 
         return View(model); 
