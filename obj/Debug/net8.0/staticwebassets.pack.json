@@ -7365,20 +7365,12 @@
       "PackagePath": "staticwebassets\\assets\\css\\templatemo.min.css"
     },
     {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\2a1a5d00-691a-4d5e-8a60-297b209ae35e_shop_04.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\2a1a5d00-691a-4d5e-8a60-297b209ae35e_shop_04.jpg"
+      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\2bb64b39-50e2-4872-9f51-bf6cce7c19c9_shop_07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\2bb64b39-50e2-4872-9f51-bf6cce7c19c9_shop_07.jpg"
     },
     {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\60e19a1d-e0b1-43c0-8500-6085cc26edb1_shop_02.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\60e19a1d-e0b1-43c0-8500-6085cc26edb1_shop_02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\67ed8c4c-99f8-4218-a711-65a88e637878_miyamoto-musashi-vagabond.png",
-      "PackagePath": "staticwebassets\\assets\\img\\67ed8c4c-99f8-4218-a711-65a88e637878_miyamoto-musashi-vagabond.png"
-    },
-    {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\8600fdb6-1366-4977-927e-913e973bd994_Screenshot 2024-08-30 175853.png",
-      "PackagePath": "staticwebassets\\assets\\img\\8600fdb6-1366-4977-927e-913e973bd994_Screenshot 2024-08-30 175853.png"
+      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\5e77131b-4992-4029-a5dd-7e210d056ac1_shop_09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\5e77131b-4992-4029-a5dd-7e210d056ac1_shop_09.jpg"
     },
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\about-hero.svg",
@@ -7391,6 +7383,10 @@
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\b5cbfa6d-0d17-444d-9db7-8f17d44f66a2_shop_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\b5cbfa6d-0d17-444d-9db7-8f17d44f66a2_shop_01.jpg"
     },
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\banner_img_01.jpg",
@@ -7421,10 +7417,6 @@
       "PackagePath": "staticwebassets\\assets\\img\\brand_04.png"
     },
     {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\c36f12d4-0ae4-4bec-8120-9368e23c6157_shop_05.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\c36f12d4-0ae4-4bec-8120-9368e23c6157_shop_05.jpg"
-    },
-    {
       "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\category_img_01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\category_img_01.jpg"
     },
@@ -7435,14 +7427,6 @@
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\category_img_03.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\category_img_03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\e29b0d04-7e42-401a-9513-92bb03365712_shop_07.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\e29b0d04-7e42-401a-9513-92bb03365712_shop_07.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\f4c9c295-7992-4d1e-958b-80c4eb6daf6a_shop_06.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\f4c9c295-7992-4d1e-958b-80c4eb6daf6a_shop_06.jpg"
     },
     {
       "Id": "C:\\Users\\Amin\\source\\repos\\ZayProject\\wwwroot\\assets\\img\\favicon.ico",

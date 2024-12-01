@@ -13,5 +13,7 @@ public class AppDbContext : DbContext
     public DbSet<Product> Products { get; set; }
     public DbSet<ProductCategory> ProductCategories { get; set; }
     public DbSet<Slide> Slides { get; set; }
+    public DbSet<OurPurpose> OurPurposes { get; set; }
+    public DbSet<Brand> Brands { get; set; }
 
 }

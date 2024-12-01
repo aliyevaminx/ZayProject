@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ZayProject.Data;
+using ZayProject.Entities;
 using ZayProject.Models.Shop;
 
 namespace ZayProject.Controllers;
@@ -23,6 +24,19 @@ public class ShopController : Controller
         };
 
         return View(model); 
+    }
+
+
+    [HttpGet]
+    public IActionResult ShowProducts(int categoryId)
+    {
+        var products = _context.Products.ToList();
+
+        if (categoryId > 0) {
+             products = _context.Products.Where(p => p.ProductCategoryId == categoryId).ToList();
+        }
+         
+        return PartialView("_ProductPartial", products);
     }
 
     public IActionResult Details(int id)
